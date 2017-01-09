@@ -23,4 +23,6 @@ function cortarTexto( $texto, $numMaxCaract ){
 /* Ejemplo de uso */
 $texto = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium velit vel eros rutrum, quis posuere tellus imperdiet. Vestibulum vehicula erat quis eleifend blandit. In sodales eleifend nisl non dapibus. Vestibulum congue eros et felis maximus auctor nec sit amet dolor. Mauris et tincidunt velit. Cras imperdiet sed nisl vitae elementum. Nulla id augue nisl. Pellentesque nulla nunc, maximus vitae rhoncus vitae, ornare et magna. Vestibulum ut quam at quam lacinia finibus at ut lorem. Aliquam finibus arcu non sapien pellentesque auctor.";
 
-cortarTexto ( $texto, $50 );
+$nuevo_texto = cortarTexto ( $texto, $50 );
+
+echo $nuevo_texto;
